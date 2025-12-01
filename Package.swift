@@ -9,19 +9,19 @@ let package = Package(
     products: [
         .library(
             name: "VoiceNotesBinary",
-            targets: ["OnnxRuntime", "SherpaOnnx"]
+            targets: ["onnxruntime", "sherpa_onnx"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "OnnxRuntime",
-            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.0/onnxruntime.xcframework.zip",
-            checksum: "5b5709cec1c8fb077843f2ba1b680ad69308cb7f395d196529c0cca1033db230"
+            name: "onnxruntime",
+            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.1/onnxruntime.xcframework.zip",
+            checksum: "696e67cb4edef1c4ed58711692e1df531e646f391f7868c3da9014251bfec2bc"
         ),
         .binaryTarget(
-            name: "SherpaOnnx",
-            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.0/sherpa-onnx.xcframework.zip",
-            checksum: "1d0b6cd585a5e3245a4a5ba885074481de6de20fe433cd5c3191bea1dd18061d"
+            name: "sherpa_onnx",
+            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.1/sherpa-onnx.xcframework.zip",
+            checksum: "7bee339e57a1cd0b681015680c8be4f56d4178d5389d36ef21f24c755fcbf5e2"
         ),
     ]
 )
