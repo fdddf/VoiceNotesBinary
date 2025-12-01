@@ -15,14 +15,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OnnxRuntime",
-            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.2/onnxruntime.xcframework.zip",
-            checksum: "0bc04877ca38fab2c357f5c376282f9d01ab1e9482a8f54fde4aa39668ffcfc9"
+            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.0/onnxruntime.xcframework.zip",
+            checksum: "5b5709cec1c8fb077843f2ba1b680ad69308cb7f395d196529c0cca1033db230"
         ),
         .binaryTarget(
             name: "SherpaOnnx",
-            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.2/sherpa-onnx.xcframework.zip",
-            checksum: "3b16aa9eeea86071ba53042e5f5f5a7cf78a996bead23d91455e98c9d993dfd8",
-            condition: .when(platforms: [.iOS], environment: [.device])
+            url: "https://github.com/fdddf/VoiceNotesBinary/releases/download/1.0.0/sherpa-onnx.xcframework.zip",
+            checksum: "1d0b6cd585a5e3245a4a5ba885074481de6de20fe433cd5c3191bea1dd18061d"
         ),
     ]
 )
