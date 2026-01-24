@@ -20,13 +20,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "onnxruntime",
-            url: "https://github.com/fdddf/sherpa-onnx-spm/releases/download/1.12.20/onnxruntime.xcframework.zip",
-            checksum: "7db1daba2b6f49f52ae220f460367af732068174321a7306c9b2bba3ec188414"
+            url: "https://github.com/fdddf/sherpa-onnx-spm/releases/download/1.12.23/onnxruntime.xcframework.zip",
+            checksum: "09e7505bd0e4376014fa39838c99f9b38471e992f1edb7886f74e0ba902254bb"
         ),
         .binaryTarget(
             name: "sherpa_onnx",
-            url: "https://github.com/fdddf/sherpa-onnx-spm/releases/download/1.12.20/sherpa-onnx.xcframework.zip",
-            checksum: "57371f4f5ede01aed9b620cb35b76d7d40fc1a07be39dedde57499bc0837797b"
+            url: "https://github.com/fdddf/sherpa-onnx-spm/releases/download/1.12.23/sherpa-onnx.xcframework.zip",
+            checksum: "18833536d5eac54806e1c808934a89fc9bb59301e1d5c717daa50580ea5da650"
         ),
     ]
 )
